@@ -1,0 +1,6 @@
+# Rust
+Serwer_rust/target/
+
+# Local history / IDE
+.history/
+*.history
