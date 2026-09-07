@@ -60,11 +60,7 @@ The single robot shown above is the first unit of a planned three-vehicle fleet.
 3. **Warehouse test bed** — a self-built scale warehouse mock-up (taped route network,
    junctions, pick-up and drop-off stations) used to test navigation, multi-vehicle
    traffic on shared routes, and collision avoidance. The layout is designed in CAD
-   ahead of construction:
-
-   ![CAD design of the warehouse test bed](Warehouse.png)
-
-   *CAD model of the warehouse mock-up: route network, junctions, and station layout.*
+   ahead of construction.
 
 4. **Coordination layer** — extending the Rust host application from a manual console
    into a supervisor that dispatches transport jobs to the fleet.
