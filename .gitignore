@@ -1,5 +1,12 @@
-# Rust
-Serwer_rust/target/
+# Firmware config with Wi-Fi credentials (copy from config.example.hpp)
+OSOYOO/include/config.hpp
+
+# Runtime state of the server and the warehouse
+Server/server_state.json
+Server/warehouse_state.json
+Server/*.tmp
+Server/logs/
+__pycache__/
 
 # Local history / IDE
 .history/
