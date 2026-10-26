@@ -49,10 +49,10 @@ revision. Both robots use the same PCB revision.
 
 ![Warehouse layout](Warehouse-Layout.jpg)
 
-*Scale 1:10, board 200 × 100 cm. CAD source: `Warehouse_model/`.*
+*Scale 1:1, board 200 × 100 cm. CAD source: `Warehouse_model/`.*
 
-The track is a graph of 16 nodes. Coordinates are in cm, (0, 0) is the top-left
-corner, x grows to the right and y downwards.
+The track is a graph of 16 nodes, laid out with 3 cm wide tape. Coordinates are in cm,
+(0, 0) is the top-left corner, x grows to the right and y downwards.
 
 | Node | Role | Position |
 |------|------|----------|
@@ -71,7 +71,7 @@ one robot can be on them at a time.
 
 ```
  warehouse.py  ──HTTP /goal, /status──▶  serwer.py  ◀──HTTP /command, /done──  ESP32 robot 1
- (stock, orders,                         (CBS path planning,                    ESP32 robot 3
+ (stock, orders,                         (CBS path planning,                    ESP32 robot 2
   task dispatch)                          command scheduling)
 ```
 
@@ -80,8 +80,8 @@ one robot can be on them at a time.
 - `Server/serwer.py` — control server (Flask). Plans paths for all robots together
   and hands each robot one command at a time.
 - `Server/mapf.py` — multi-agent path finding: Conflict-Based Search
-  (Sharon et al., 2015) with space-time A*, turned into an Action Dependency Graph
-  (Hönig et al., 2019) so the robots stay collision-free even though they do not
+  with space-time A*, turned into an Action Dependency Graph
+  so the robots stay collision-free even though they do not
   move in lock-step.
 - `Server/warehouse.py` — warehouse layer: keeps the rack stock, queues deliveries
   and orders, and decides which robot goes where.

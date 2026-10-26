@@ -1,3 +1,0 @@
-Marcel
-DESKTOP-L2VASG2 
-Sunday, October 18, 2026  12:55:01 AM
