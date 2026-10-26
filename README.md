@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/e9a29994-8803-43c1-b008-7caa41e772e3
+
+
+
+
+
 # Autonomous AGV Fleet — ESP32 Line Followers in a Scale Warehouse
 
 A fleet of two autonomous guided vehicles (AGVs) that serve a self-built scale
@@ -16,12 +24,7 @@ adding Wi-Fi connectivity and a 32-bit MCU in place of the original 8-bit contro
 ![Assembled robot with the custom PCB](Photo.jpg)
 
 ## Demo
-
-<!-- GitHub only plays videos uploaded through its editor (drag & drop the file
-     into README.md on github.com and it inserts a user-attachments URL here). -->
-<video src="video.mp4" controls width="720"></video>
-
-If the player does not load, open [video.mp4](video.mp4) directly.
+https://github.com/user-attachments/assets/aa6393ad-4d51-4d18-ae9f-6a0b75ac840b
 
 ## Hardware
 
