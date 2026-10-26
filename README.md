@@ -1,11 +1,3 @@
-
-
-https://github.com/user-attachments/assets/e9a29994-8803-43c1-b008-7caa41e772e3
-
-
-
-
-
 # Autonomous AGV Fleet — ESP32 Line Followers in a Scale Warehouse
 
 A fleet of two autonomous guided vehicles (AGVs) that serve a self-built scale
